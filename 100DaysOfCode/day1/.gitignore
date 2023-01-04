@@ -1,0 +1,16 @@
+# Bytecode files
+*.o
+*.hi
+
+# Generated documentation
+docs/html/
+
+# Project build artifacts
+cabal-dev/
+dist/
+
+# Stack-specific files
+.stack-work/
+
+# Cabal Sandbox
+.cabal-sandbox/
