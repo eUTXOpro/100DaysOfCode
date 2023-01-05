@@ -17,8 +17,8 @@ main = do
 
 putStrLn "Enter a word, this program will check it it is a palindrome!"
 
-
-
+let c = 1
+let b = 2
 
 if c == b then putStrLn "It's a palindrome!"
     else putStrLn "Yeah, it's not a palindrome"

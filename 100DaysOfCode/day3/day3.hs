@@ -32,3 +32,4 @@ LEARNING OUTCOMES:
 - How to get user imput from the terminal
 - How to define a function}
 
+-}
