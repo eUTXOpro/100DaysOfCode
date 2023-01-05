@@ -12,9 +12,6 @@ What is a function and how do I make one?
 How do I turn a string into a list? 
 -}
 
-
-import Data.List.Split
-
 main :: IO ()
 main = do
 
@@ -25,3 +22,5 @@ putStrLn "Enter a word, this program will check it it is a palindrome!"
 
 if c == b then putStrLn "It's a palindrome!"
     else putStrLn "Yeah, it's not a palindrome"
+
+--This still doesn't work, but that's because there's nothing of value here yet
