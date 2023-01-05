@@ -1,8 +1,7 @@
 -- Day 3
 
 {- CURRENT OBJECTIVE
-Write a function 'isPalindrome' that takes a list of elements
-and returns 'true' if the list is a palindrome' -}
+Write a program that checks to see if a string is a Palindrome' -}
 
 import Data.List
 
