@@ -21,7 +21,7 @@ main :: IO ()
 main = do
     -- Call the 'sumNumbers' function with the list of strings ["Enter a number:", "Enter another number:", "Enter a third number:"]
     -- and bind the result to the 'result' variable
-    result <- sumNumbers ["Enter a number:", "Enter another number:", "Enter a third number:"]
+    result <- sumNumbers ["Enter a number:", "Enter another number:", "Enter a third number:", "Do it again"]
     -- Print the value of 'result'
     print result
 
