@@ -2,7 +2,7 @@
 import System.Random
 
 randomInt :: IO Int
-randomInt = do 
+randomInt = do
    n <- getStdGen  -- Get the global random number generator
    return $ fst $ randomR (0, 1) n
 
