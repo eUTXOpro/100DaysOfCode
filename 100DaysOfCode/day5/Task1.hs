@@ -1,7 +1,4 @@
--- Day 5
-
-{- CURRENT OBJECTIVE
-
+{- day 5
 Write a function that takes a list of integers and returns their sum. 
 For example, the call sum [1, 2, 3] should return 6.
 
