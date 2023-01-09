@@ -1,0 +1,1 @@
+All of the tasks have been outlined, however none of them are functions yet
