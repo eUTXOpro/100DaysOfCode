@@ -1,4 +1,3 @@
-
 -- Question 1
 -- Add the type signatures for the functions below and then remove the comments and try to compile.
 -- (Use the types presented in the lecture.)
