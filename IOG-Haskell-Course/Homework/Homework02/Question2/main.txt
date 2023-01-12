@@ -1,0 +1,18 @@
+-- Question 2
+-- Why should we define type signatures of functions? How can they help you? How can they help others?
+
+
+Defining type signatures for functions is a best practice in Haskell, and there are several benefits to doing so:
+
+Type signatures help to ensure that the function works as intended. By specifying the types of the input arguments and the return value, the compiler can catch any type errors at compile-time, before the program is run. This can help to reduce the number of bugs in the program and make it more robust.
+
+- Type signatures make the code more readable and easier to understand. When reading the code, a well-written type signature can provide important information about the function's behavior and what to expect as input and output.
+
+- Type signatures can serve as a form of documentation. By providing type signatures, you are explicitly stating what the function expects as input and what it produces as output, which can help others who read your code to understand how to use it correctly.
+
+- Type signatures can improve code reusability. When writing a function, if you specify the types of the input arguments, other programmers will know what types of inputs the function expects, which makes it easier for them to reuse the function in their own code.
+
+- Type signatures can help in reasoning about the function behavior. It's easy to understand the role of the function and its inputs/outputs by looking at the type signature.
+
+Overall, providing type signatures for functions is a good practice in Haskell, as they can help to make the code more robust, readable, and reusable, and they can serve as a form of documentation that can help others who read your code to understand how to use it correctly.
+-}

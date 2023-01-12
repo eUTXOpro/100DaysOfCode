@@ -1,0 +1,11 @@
+fromIntegral - allows you to convert an Integral type to a more general Num type, such as Integer to Float.
+
+toEnum and fromEnum - allow you to convert between an enumeration (Enum) type and its underlying integral type.
+
+toInteger and fromInteger - allow you to convert between Integer and other numeric types, such as Int, Double, and Float.
+
+show and read - allow you to convert between a value of any type that is an instance of Show to a String, and vice versa, from a String to a value of any type that is an instance of Read
+
+round, floor, ceiling allow you to convert a floating point number to an integral number by rounding, taking the floor or taking the ceiling of the number.
+
+ord and chr - allow you to convert between Char and its corresponding Int representation in the Unicode character set.
