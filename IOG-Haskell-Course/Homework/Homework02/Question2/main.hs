@@ -1,0 +1,2 @@
+-- Question 2
+-- Why should we define type signatures of functions? How can they help you? How can they help others?
