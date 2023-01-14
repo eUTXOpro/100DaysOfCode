@@ -1,13 +1,6 @@
--- Day 3
-
-{- CURRENT OBJECTIVE
-Write a program that checks to see if a string is a Palindrome' -}
+--Write a program that checks to see if a string is a Palindrome
 
 import Data.List
-
--- Can't figure out how to import package using ChatGPT yet.
--- Problem with package manager??? Data.List.Split not recongized
--- Made the executive decicion to use a different module (Data.List)
 
 flipString :: String -> String
 flipString s = reverse s
