@@ -21,6 +21,10 @@ main :: IO ()
 main = putStrLn "Hello, World!" {-
 main = putStrLn "Hello, World"
 
+    main =
+     Here we define the properties of the main function
+     
+
 Here we define the properties of the main function.
 Everything following the "=" will become a property of "main"
 
