@@ -19,21 +19,18 @@ main :: IO ()
      The "main" function must have the type signature "IO ()" -}
 
 main = putStrLn "Hello, World!" {-
-main = putStrLn "Hello, World"
+main = putStrLn "Hello, World!"
 
     main =
      Here we define the properties of the main function
-     
+     Everything following the "=" will become a property of "main"
 
-Here we define the properties of the main function.
-Everything following the "=" will become a property of "main"
+    putStrLn
+     This is a function.
+     It is part of the standard libarary of Haskell functions.
+     Here is a breakdown of how this function works: PutStrLn :: String -> IO ()
 
-putStrLn
-    This is a function.
-    It is part of the standard libarary of Haskell functions.
-    Here is a breakdown of how this function works: 
-
-        putStrLn :: String -> IO ()
-
-
+    "Hello, World!"
+     This is string as denoted by "_"
+     A string is syntactic sugar for a list of characters (Char)
 -}
