@@ -32,5 +32,4 @@ main = putStrLn "Hello, World!"
 
     "Hello, World!"
      This is string as denoted by "_"
-     A string is syntactic sugar for a list of characters (Char)
--}
+     A string is syntactic sugar for a list of characters (Char) -}

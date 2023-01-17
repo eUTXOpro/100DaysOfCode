@@ -1,6 +1,9 @@
-import Data.List
+flipString :: String -> String {-
+fliptstring :: String -> String
 
-flipString :: String -> String
+
+-}
+
 flipString s = reverse s
 
 main :: IO ()
