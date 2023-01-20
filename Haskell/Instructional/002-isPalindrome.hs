@@ -14,15 +14,16 @@ flipString :: String -> String              {- flipString :: String -> String
      Haskell is a statically-typed language and must know the type of a value at compile time.
      This function takes a String and produces a String. -}
 flipString s = reverse s                    {- flipString s = reverse s
-
     flipString s =
-     This defines the -}
+     When calling flipString on the arbritarary string 's'...
+    reverse s
+     ... execute the 'reverse' function on 's'
+     the reverse function is a standard function in Haskell-}
 
-
-main :: IO ()
+main :: IO ()                               
 main = do
     putStrLn "Enter a word, this program will check it it is a palindrome!"
-    s <- getLine
-    let checked = flipString s
-    if s == checked then putStrLn "It's a palindrome!"
-    else putStrLn "Yeah, it's not a palindrome"
+    userInput1 <- getLine
+    let checked = flipString userInput1
+    if userInput1 == checked then putStrLn "It's a palindrome!"
+    else putStrLn "Not a palindrome"
